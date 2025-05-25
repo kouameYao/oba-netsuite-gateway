@@ -1,0 +1,23 @@
+export type Mission = {
+  title: string;
+  type: string;
+  category: string;
+  priority: string;
+  status: string;
+  description: string;
+  objectives: string[];
+  requirements: string[];
+  location: string;
+  specificArea: string;
+  assignedAgent: string;
+  supervisor: string;
+  startDate: string;
+  endDate: string;
+  startTime: string;
+  endTime: string;
+  client: string;
+  budget: string;
+  riskLevel: string;
+  safetyProtocols: string[];
+  attachments: File[];
+};
