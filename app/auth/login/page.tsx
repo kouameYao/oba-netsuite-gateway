@@ -14,10 +14,7 @@ import Image from "next/image";
 export default function LoginPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#fba669] via-[#fc8c34] to-[#fc8429] flex items-center justify-center p-4 relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-br from-orange-300 to-orange-500 opacity-50 blur-md">
-        ddhdhd
-      </div>
-      <Card className="w-full max-w-md relative z-10 shadow-2xl border-0 bg-white/95 backdrop-blur-sm">
+      <Card className="w-full max-w-md relative border-0 backdrop-blur-sm bg-white rounded-3xl p-6 z-10 shadow-[8px_8px_1px_rgba(255,255,255,0.5)]">
         <CardHeader className="text-center pb-6">
           <div className="flex items-center space-x-8">
             <Image
@@ -36,7 +33,7 @@ export default function LoginPage() {
             </div>
           </div>
         </CardHeader>
-        <CardContent className="space-y-6 px-8 pb-8">
+        <CardContent className="space-y-6 pb-8">
           <div className="space-y-2">
             <Label htmlFor="identifiant" className="text-gray-700 font-medium">
               Identifiant

@@ -78,11 +78,6 @@ export default function GestionsPage() {
         <div className="space-y-6">
           <Card className="bg-white rounded-2xl border-0 shadow-sm">
             <CardContent className="p-6">
-              <h2 className="text-xl font-bold text-gray-900 mb-6">
-                Utilisateurs administration
-              </h2>
-
-              {/* Filtres */}
               <div className="flex flex-col lg:flex-row items-start lg:items-center space-y-4 lg:space-y-0 lg:space-x-4 mb-6">
                 <div className="relative flex-1 w-full lg:max-w-md">
                   <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400" />
